@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- Favicon -->
+     <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link
+     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500&display=swap"
+     rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link
+     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500&display=swap"
+     rel="stylesheet">
+ <!-- Animate.css -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<!-- Bootstrap CSS -->
+
+</head>
+
+<body>
+
+
+
+ <style>
+     /* Custom Styles */
+     .welcome-section {
+         height: 100vh;
+         background: url('images/promo1.png') center center/cover no-repeat;
+         color: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         position: relative;
+     }
+
+     .welcome-section::before {
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0, 0, 0, 0.6);
+         /* Adds a dark overlay */
+     }
+
+     .welcome-content {
+         position: relative;
+         z-index: 2;
+     }
+
+     .welcome-content h1 {
+         font-size: 3.5rem;
+     }
+
+     .welcome-content p {
+         font-size: 1.5rem;
+     }
+
+     .welcome-buttons .btn {
+         padding: 2dvh 30px;
+         font-size: 1.5rem;
+     }
+ </style>
+
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+     <div class="div class container">
+     <!-- Brand -->
+     <a class="navbar-brand" href="#"><img src="images/Logo-removebg-preview (3) - Copy - Copy.png " width="80px"
+             height="80px"></a>
+
+     <!-- Toggler/collapsibe Button -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <!-- Navbar links -->
+     <div class="collapse navbar-collapse" id="collapsibleNavbar">
+         <ul class="navbar-nav">
+             <li class="nav-item">
+                 <a class="nav-link" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+             <li class="nav-item">
+                 <a class="nav-link" href="shop.html">Shop</a>
+
+             </li>
+
+             <ul class="navbar-nav ml-auto">
+
+                 <a class="nav-link" href="chart.html">
+                     <ol><i class="fa fa-shopping-cart fa-2x"><span id="cartCounter"
+                                 class="cart-counter">0</span></li></i>
+                 </a>
+                 </ol>
+             </ul>
+         </ul>
+         </div>
+         </div>
+ </nav>
+    <!-- Page Header -->
+    <header class="bi-bag-plus-fill text-white text-center py-5">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="lead">We're here to help and answer any question you might have.</p>
+        </div>
+    </header>
+
+    <div class="icon-bar">
+        <a href="https://www.facebook.com" class="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="hhtps:www.google.com" target="_blank" class="google"><i class="fab fa-google"></i></a>
+        <a href="https:www.linkedin" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="htps:www.youtube.com" class="youtube"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!-- Contact Section -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-6 mb-4">
+                    <h2>Send Us a Message</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+        
+                <!-- Contact Information -->
+                <div class="col-lg-6">
+                    <h2>Get in Touch</h2>
+                    <p>We’d love to hear from you. Here’s how you can reach us...</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Address:</strong> Muniki Suk LIbya 107 road</li>
+                        <li><strong>Phone:</strong> (256)764102504</li>
+                        <li><strong>Email:</strong> yangmoses66@gmail.com</li>
+                    </ul>
+
+                    <!-- Social Media Links -->
+                    <h4 class="mt-4">Follow Us</h4>
+                    <div class="d-flex">
+                        <a href="www.facebook.com" class="text-dark me-3"><i class="bi bi-facebook"
+                                style="font-size: 2rem;"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="bi bi-instagram" style="font-size: 2rem;"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="bi bi-twitter" style="font-size: 2rem;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Embed -->
+    <section class="map-section">
+        <div class="container-fluid px-0">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2396.658203995643!2d31.56743827181284!3d4.863955240227242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1712815eda90275b%3A0x72273f3b85e53ffa!2sCaroline%20Boutique!5e1!3m2!1sen!2sug!4v1728279356275!5m2!1sen!2sug"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+    </section>
+
+    <div class="footer">
+		<div class="row gy-4">
+		  <!-- Column 1: About -->
+		  <div class="col-md-3">
+			<div class="column">
+			  <h4 style="color:white;">About Us</h4>
+			  <p>We are dedicated to providing top-notch services to our clients, ensuring satisfaction and excellence in every project.</p>
+			</div>
+			<div class="column mt-3">
+			  <h4 "color:white;">Quick Links</h4>
+			  <div class="quick-links">
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Services</a>
+				<a href="#">Contact</a>
+				<a href="#">FAQs</a>
+			  </div>
+			</div>
+		  </div>
+		  <!-- Column 2: Contact Form -->
+		  <div class="col-md-3">
+			<div class="column">
+			  <h4>Contact Us</h4>
+			  <form>
+				<div class="mb-3">
+				  <label for="name" class="form-label">Name</label>
+				  <input type="text" class="form-control" id="name" placeholder="Your Name">
+				</div>
+				<div class="mb-3">
+				  <label for="email" class="form-label">Email</label>
+				  <input type="email" class="form-control" id="email" placeholder="Your Email">
+				</div>
+				<div class="mb-3">
+				  <label for="message" class="form-label">Message</label>
+				  <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Send</button>
+			  </form>
+			</div>
+		  </div>
+		  <!-- Column 3: Services -->
+		  <div class="col-md-3">
+			<img src="images/Logo-removebg-preview (3) - Copy - Copy.png" width="80px" height="80px"/>
+			<div class="column">
+			  <h4>Services</h4>
+			  <ul>
+				<li>Web Development</li>
+				<li>Mobile App Development</li>
+				<li>Digital Marketing</li>
+				<li>Graphic Design</li>
+			  </ul>
+			</div>
+			<div class="column mt-3" class="icon">
+			  <h4>Payment Methods</h4>
+			  <div class="payment-icons">
+				<i class="fab fa-cc-visa" class="visa"></i>
+				<i class="fab fa-cc-mastercard" class="card"></i>
+				<i class="fab fa-cc-paypal" class="master"></i>
+				<i class="fas fa-university" class="uni"></i> <!-- For bank transfer -->
+			  </div>
+			</div>
+		  </div>
+		  <!-- Column 4: Social Media, Mobile App, Newsletters -->
+		  <div class="col-md-3">
+			<div class="column">
+			  <h4>Follow Us</h4>
+			  <div class="social-icons">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+			  </div>
+			</div>
+			<div class="column mt-3">
+			  <h4>Mobile App</h4>
+			  <p>Download our mobile app for easy access:</p>
+			  <a href="#"><i class="fab fa-apple fa-2x"></i></a>
+			  <a href="#"><i class="fab fa-google-play fa-2x"></i></a>
+			</div>
+			<div class="column mt-3">
+			  <h4>Newsletter</h4>
+			  <p>Subscribe to our newsletter to get the latest updates:</p>
+			  <form>
+				<div class="mb-3">
+				  <input type="email" class="form-control" placeholder="Enter your email">
+				</div>
+				<button type="submit" class="btn btn-primary">Subscribe</button>
+			  </form>
+			</div>
+		  </div>
+		</div>
+        <p class="text-center" style="color:rgb(255, 255, 255);">   
+            &copy; 2024 Caroline Boutique designed by Yang G. All reserved.</p>      
+                      <a href="#" class="back-to-top" title="Back to Top"><i class="fab fa-arrow-up"></i>
+    </div>
+	  </div>
+	  <p class="text-center" style="color:white;">   
+		        &copy; 2024 Caroline Boutique designed by Yang G. All reserved.</p>      
+				          <a href="#" class="back-to-top" title="Back to Top">
+	  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
